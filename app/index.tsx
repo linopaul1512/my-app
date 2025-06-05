@@ -1,3 +1,6 @@
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Text, View } from "react-native";
 
 export default function Index() {
